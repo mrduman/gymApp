@@ -1,6 +1,6 @@
 import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material";
-import HeroBannerImage from "../assets/images/banner.png";
+import { Box, Typography, Button } from "@mui/material";
+import MiditFitnessImg from "../assets/images/midiFitness.png";
 
 const HeroBanner = () => {
   return (
@@ -47,7 +47,12 @@ const HeroBanner = () => {
       >
         Exercise
       </Typography>
-      <img src={HeroBannerImage} alt="banner" className="hero-banner-img" />
+      <img
+        src={MiditFitnessImg}
+        alt="banner"
+        className="hero-banner-img"
+        style={{ borderBottomLeftRadius: "100px" }}
+      />
     </Box>
   );
 };
